@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+/*    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+*/}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #101081;
+    line-height: 50px;
+}
+
+.col{
+    width: 100%;
+    height: 10px;
+    background-color: #f4511e;
+}
+
+ul{
+    float: right;
+    margin-right: 50px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #f2f2f2; 
+}
+
+ul li:hover{
+    background-color: #f4511e;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+ul li ul.dropdown{
+    min-width: 180px; /* Set width of the dropdown */
+    background: #101081;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    border-radius: 5px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+#form_div{
+    margin-top: 40px;
+}
+
+.loginbox{
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(187, 189, 190);
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(44, 44, 44, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.loginbox .text{
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#dashboard{
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.dash{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    column-gap: 40px;
+}
+
+.dash a{
+    color: rgb(54, 53, 53);
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.dash .dash1{
+    width: 30%;
+    height: 150px;
+    background-color: #f4511e;
+    border-radius: 10px;
+   justify-content: space-between;
+    margin: 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.dash .dash1 .box{
+    width: 100%;
+    border-top: 2px solid #101e6e;
+    margin-top: 110px;
+}
+
+
+.dash .dash1 h2{
+    display:inline;
+    float:right;
+    padding: 0px 20px;
+    color: #f2f2f2;
+    }
+
+
+
+.footer{
+    position: fixed;
+    background-color: #101081; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+/*Add Books*/
+
+.container .panel {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+}
+
+/*h3{
+    text-align: center;
+    color: green;
+    padding: 30px;*/
+}
+
+/*h2{
+    text-align: center;
+    color: #101081;
+    padding: 10px;
+}*/
+/*.col-centered{
+    float: none;
+    margin: 0 auto;
+    }
+.col-centered p{
+        font-size: 16px;
+        display: inline;
+        padding: 70px 20px;
+}*/
+

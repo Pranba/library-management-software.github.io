@@ -1,0 +1,32 @@
+.navbar a{
+    font-weight: 600;
+    background-color: linear-gradient(to right, #ff5858, #f857a6);
+}
+
+
+.navbar-custom{
+            background-color: lightgreen;
+        }
+
+
+h3{
+    text-align: center;
+    color: green;
+    padding: 30px;
+}
+
+/*h2{
+    text-align: center;
+    color: #101081;
+    padding: 10px;
+}*/
+/*.col-centered{
+    float: none;
+    margin: 0 auto;
+    }
+.col-centered p{
+        font-size: 16px;
+        display: inline;
+        padding: 70px 20px;
+}*/
+
